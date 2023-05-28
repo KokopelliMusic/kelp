@@ -1,0 +1,16 @@
+.layout {
+	display: grid;
+	grid-template-columns: var(--sidebar-size) 1fr;
+}
+
+.container {
+	display: grid;
+	grid-template-rows: 1fr 100px;
+}
+
+.mainContainer {
+	overflow-x: hidden;
+	overflow-y: scroll;
+	height: 100vh;
+	position: relative;
+}

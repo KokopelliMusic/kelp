@@ -1,0 +1,77 @@
+.sidebar {
+	width: var(--sidebar-size);
+	height: 100vh;
+	overflow-x: hidden;
+	overflow-y: hidden;
+
+	background-color: rgba(100, 100, 100, 0.1);
+}
+
+.title {
+	height: 10vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1rem;
+
+	h1 {
+		margin-left: 1rem;
+	}
+}
+
+.card {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+
+	.cardInfo {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+		gap: 1rem;
+	}
+
+	img {
+		border-radius: 100px;
+	}
+}
+
+.mainOptions {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 1rem;
+
+	& > * {
+		margin-left: 4rem;
+	}
+
+	a {
+		color: white;
+	}
+}
+
+.library {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 1rem;
+
+	margin-top: 3rem;
+
+	& > * {
+		margin-left: 4rem;
+	}
+
+	a {
+		color: white;
+	}
+}

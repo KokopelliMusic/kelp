@@ -1,0 +1,48 @@
+$radius: 10px;
+
+.album {
+	position: relative;
+
+	border-radius: $radius;
+
+	text-align: center;
+
+	transition: 0.2s;
+}
+
+.album:hover {
+	cursor: pointer;
+	color: var(--color-accent);
+}
+
+.gradient {
+	z-index: 5;
+	position: absolute;
+	border-radius: $radius;
+
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+}
+
+.image {
+	z-index: 0;
+
+	border-radius: $radius;
+
+	position: absolute;
+}
+
+.overlay {
+	z-index: 10;
+	position: absolute;
+
+	text-align: center;
+
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-bottom: 10px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+}

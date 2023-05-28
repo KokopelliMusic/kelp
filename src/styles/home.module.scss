@@ -1,0 +1,35 @@
+$gap: 1.5rem;
+
+.home {
+	display: block;
+	margin-left: $gap;
+}
+
+.gridContainer {
+	flex: 1;
+	display: flex;
+	overflow: auto;
+	scrollbar-color: transparent transparent;
+}
+
+.gridContainer:hover {
+	scrollbar-color: var(--color-secondary) var(--color-bg);
+}
+
+.grid {
+	display: flex;
+	min-width: min-content;
+	gap: $gap;
+
+	margin-right: $gap;
+}
+
+.title {
+	padding-top: $gap;
+	margin-bottom: $gap;
+}
+
+.footer {
+	padding-top: $gap;
+	padding-bottom: $gap;
+}
