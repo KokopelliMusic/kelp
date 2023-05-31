@@ -1,0 +1,21 @@
+.song {
+	display: grid;
+	grid-template-areas:
+		'image title'
+		'image artist';
+
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: repeat(1fr, 2);
+}
+
+.image {
+	grid-area: image;
+}
+
+.title {
+	grid-area: title;
+}
+
+.artist {
+	grid-area: artist;
+}

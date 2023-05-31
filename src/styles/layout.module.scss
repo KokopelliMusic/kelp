@@ -11,6 +11,14 @@
 .mainContainer {
 	overflow-x: hidden;
 	overflow-y: scroll;
-	height: 100vh;
+	height: var(--main-height);
 	position: relative;
+}
+
+.playerContainer {
+	position: absolute;
+	z-index: 10;
+	bottom: var(--player-height);
+	width: var(--player-width);
+	left: calc(50% - var(--player-width) / 2);
 }

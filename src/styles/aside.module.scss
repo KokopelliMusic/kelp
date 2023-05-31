@@ -1,6 +1,6 @@
 .sidebar {
 	width: var(--sidebar-size);
-	height: 100vh;
+	height: var(--main-height);
 	overflow-x: hidden;
 	overflow-y: hidden;
 
@@ -73,5 +73,46 @@
 
 	a {
 		color: white;
+	}
+}
+
+.player {
+	$margin: 4rem;
+
+	width: calc(var(--sidebar-size) - $margin);
+	height: var(--player-height);
+
+	padding-left: $margin;
+
+	position: fixed;
+
+	bottom: 0;
+}
+
+.playerInfo {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.innerInfo {
+	display: flex;
+	gap: 1rem;
+}
+
+.icons {
+	height: 100%;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+
+	gap: 1rem;
+
+	button {
+		background-color: transparent;
+		border: none;
+		cursor: pointer;
 	}
 }

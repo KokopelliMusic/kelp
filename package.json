@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
     "@types/node": "20.2.3",
     "@types/react": "18.2.6",
     "@types/react-dom": "18.2.4",
@@ -16,9 +17,14 @@
     "eslint-config-next": "13.4.3",
     "next": "13.4.3",
     "next-auth": "^4.22.1",
+    "next-redux-wrapper": "^8.1.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-icons": "^4.9.0",
+    "react-lines-ellipsis": "^0.15.3",
+    "react-redux": "^8.0.5",
     "sass": "^1.62.1",
+    "swr": "^2.1.5",
     "typescript": "5.0.4"
   }
 }
